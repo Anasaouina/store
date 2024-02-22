@@ -1,0 +1,74 @@
+.collection-accuil{
+    background: #2c3e50;
+    border-radius: 10px;
+    margin: 5px;
+}
+#collections {
+    display: grid;
+    grid-template-columns: 45% 25% 25%; /* Three columns with specified widths */
+    grid-template-rows: 45% 45%; /* Two rows with specified heights */
+    grid-gap: 20px; /* Set the gap between grid items */
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.fruit {
+  margin-left: 25px;
+    box-sizing: border-box;
+    grid-column: 1 / span 1; /* Span two columns (50% width) */
+    grid-row: 1 / span 2; /* Span two rows (100% height) */
+
+}
+
+.vegetable {
+    border: 2px #202370;
+    box-sizing: border-box;
+    grid-column: 2 / span 2; /* Span two columns (50% width) starting from column 2 */
+    grid-row: 1; /* Occupy the first row (50% height) */
+}
+
+.herb {
+    border: #202370;
+    box-sizing: border-box;
+    grid-column: 2; /* Occupy the first column (25% width) */
+    grid-row: 2 / span 1; /* Span one row (50% height) starting from row 2 */
+}
+
+.dairy {
+    border: #202370;
+    box-sizing: border-box;
+    grid-column: 3; /* Occupy the third column (25% width) */
+    grid-row: 2 / span 1; /* Span one row (50% height) starting from row 2 */
+}
+
+
+#collections div img {
+    border:5px #6cbd45 solid;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 10px;
+    transition: transform 0.9s;
+    
+}
+#collections div img:hover{
+    transform: scale(1.03);
+}
+.a-coll{
+    width: 200px;
+    height: 10px;
+    background:#202370;
+   
+position: relative;
+right: -35px;
+bottom: 50px;
+padding: 10px;
+border-radius: 15px;
+color: #f1e8e8;
+font-weight: 650;
+}
+.a-coll:hover{
+    background: #6cbd45;
+    color:wheat;
+    font-weight: 900;
+}

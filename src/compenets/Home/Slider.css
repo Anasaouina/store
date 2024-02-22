@@ -1,0 +1,22 @@
+/* Container for the slider */
+.slider-container {
+    width: 100%; /* Adjust the width of the slider container */
+    margin: auto; /* Center the slider horizontally */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Container for the slides */
+.slides {
+    display: flex; /* Display slides in a row */
+    transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+}
+
+/* Individual slide */
+.slide {
+    min-width: 100%; /* Ensure each slide takes up the full width */
+    box-sizing: border-box; /* Include padding in the width */
+}
+.slide img {
+    width: 100%;
+    height: 90vh;
+}

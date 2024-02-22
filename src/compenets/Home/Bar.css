@@ -1,0 +1,20 @@
+.barinfo{
+    margin: 1.5px;
+    background: #202370;
+    height: 150px;
+    width: 100%;
+    display: flex;
+
+}
+.holder i {
+    color: #6cbd45;
+    margin-left: 10px;
+}
+
+.holder {
+    display: grid;
+    place-items: center;
+    width: 25%;
+    padding: 25px;
+    color: #fff;
+}

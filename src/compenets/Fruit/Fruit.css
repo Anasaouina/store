@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #333;
+    text-align: left;
+    background-color: #f9f1f1b7;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 30px;
+}
+ .header h2{
+    color: #202370;
+}
+header .cart-icon{
+    position: relative;
+    margin-right: 400px;
+}
+header .cart-icon i{
+    font-size: 20px;
+}
+header .cart-icon span{
+    font-size: 14px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: -10px;
+    font-weight: 500;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mt-50{
+
+    margin-top: 50px;
+}
+
+.mb-50{
+
+    margin-bottom: 50px;
+}
+
+
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .1875rem;
+}
+
+.card-img-actions {
+    position: relative;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.card-img{
+
+    width: 350px;
+}
+
+.star{
+        color: red;
+}
+
+.bg-cart {
+    background-color:orange !important;
+    color:#fff;
+    margin-top: 10px;
+}
+
+.bg-cart:hover {
+     background-color: rgb(250, 208, 21) !important;
+    color:#fff;
+}
+
+.bg-buy {
+    background-color:green;
+    color:#fff;
+    padding-right: 29px;
+}
+.bg-buy:hover {
+    
+    color:#fff;
+}
+
+a{
+
+    text-decoration: none !important;
+}
+.cartHolder{
+    width: 400px;
+
+}
+.empty{
+    min-height: 10vh;
+}
